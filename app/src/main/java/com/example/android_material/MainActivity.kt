@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.android_material.databinding.ActivityMainBinding
+import com.example.android_material.databinding.ButtomSheetModelBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.cardViewTxtFields.setOnClickListener({
             startActivity(TextFieldsActivity.createIntent(this))
+        })
+
+        binding.cardViewButtomSheets.setOnClickListener({
+         ModalButtomSheets.start(supportFragmentManager)
         })
     }
 

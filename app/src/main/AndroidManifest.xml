@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.android_material.ButtonsActivity" />
+        <activity android:name="com.example.android_material.TextFieldsActivity" />
+        <activity android:name="com.example.android_material.ModalButtomSheets"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>
