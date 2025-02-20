@@ -40,7 +40,7 @@
         android:layout_marginTop="10dp"
         app:counterEnabled="true"
         app:counterMaxLength="20"
-        app:counterTextColor="#C10E0E"
+
         app:startIconDrawable="@drawable/baseline_android_24"
         app:endIconMode="password_toggle"
         app:startIconTint="#010EEC"

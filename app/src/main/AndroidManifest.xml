@@ -25,6 +25,8 @@
         <activity android:name="com.example.android_material.TextFieldsActivity" />
         <activity android:name="com.example.android_material.ModalButtomSheets"
             tools:ignore="Instantiatable" />
+        <activity android:name="com.example.android_material.TopAppBarActivity" />
     </application>
+
 
 </manifest>

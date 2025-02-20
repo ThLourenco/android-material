@@ -5,8 +5,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.android_material.databinding.ActivityMainBinding
-import com.example.android_material.databinding.ButtomSheetModelBinding
+
+import com.example.materialdesign.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.cardViewButtomSheets.setOnClickListener({
          ModalButtomSheets.start(supportFragmentManager)
+        })
+
+        binding.cardViewTopAppBars.setOnClickListener({
+            startActivity(TopAppBarActivity.createIntent(this))
         })
     }
 

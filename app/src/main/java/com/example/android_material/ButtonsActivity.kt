@@ -4,7 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.android_material.databinding.ActivityButtonsBinding
+
+import com.example.materialdesign.databinding.ActivityButtonsBinding
 
 class ButtonsActivity: AppCompatActivity() {
 
