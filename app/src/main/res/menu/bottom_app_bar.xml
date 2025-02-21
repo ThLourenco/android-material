@@ -11,7 +11,7 @@
         />
     <item
         android:id="@+id/search"
-        android:icon="@drawable/baseline_android_24"
+        android:icon="@drawable/baseline_content_paste_search_24"
         android:title="searsh"
         android:contentDescription="content_description_more"
         app:showAsAction="ifRoom"
@@ -19,7 +19,7 @@
 
     <item
         android:id="@+id/more"
-        android:icon="@drawable/baseline_android_24"
+        android:icon="@drawable/baseline_3k_plus_24"
         android:title="more"
         android:contentDescription="content_description_more"
         app:showAsAction="ifRoom"

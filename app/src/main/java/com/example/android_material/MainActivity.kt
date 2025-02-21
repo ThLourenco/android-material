@@ -38,6 +38,11 @@ class MainActivity : AppCompatActivity() {
         binding.cardSnackbar.setOnClickListener({
             startActivity(SnackbarActivity.createIntent(this))
         })
+
+        binding.cardBottomNavigation.setOnClickListener({
+            startActivity(BottomNavigationActivity.createIntent(this))
+        })
+
     }
 
 }
