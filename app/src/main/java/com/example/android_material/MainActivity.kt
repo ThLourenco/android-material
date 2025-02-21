@@ -1,10 +1,6 @@
 package com.example.android_material
-
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 import com.example.materialdesign.databinding.ActivityMainBinding
 
@@ -15,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        insertListeners()
     }
 
     private fun insertListeners(){
@@ -32,6 +29,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.cardViewTopAppBars.setOnClickListener({
             startActivity(TopAppBarActivity.createIntent(this))
+        })
+
+        binding.cardBottonAppbar.setOnClickListener({
+            startActivity(BottonAppBarActivity.createIntent(this))
+        })
+
+        binding.cardSnackbar.setOnClickListener({
+            startActivity(SnackbarActivity.createIntent(this))
         })
     }
 
